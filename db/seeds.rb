@@ -19,3 +19,4 @@ puts 'Creating tv shows...'
 sample["series"].each do |tv_show|
   TvShow.create! tv_show
 end
+puts 'Finished!'
